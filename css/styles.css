@@ -1,0 +1,355 @@
+* {
+    font-size: 100%;
+    font-family: Helvetica;
+}
+
+li {
+    padding-left: 5vh;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: right;
+}
+
+#flexboxcontainer {
+    padding-left: 2vh;
+    margin-top: 1vh;
+    width: 100%;
+    height: 250px;
+    flex: 1 0 80px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    flex: 1 0 80px;
+}
+
+.container-offer {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    max-width: 100%;
+    flex: 1 0 80px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+    flex: 1 0 80px;
+}
+
+#imgune {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    padding-top: 1vh;
+    background-size: contain;
+    padding-bottom: 1vh;
+    flex: 1 0 80px;
+}
+
+.block-price {
+    position: absolute;
+    bottom: 20px;
+    right: 65px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+
+.block-left {
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 1;
+}
+
+.block-bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 65px;
+    color: white;
+    padding-left: 20px;
+}
+
+.block-bottom1>h3 {
+    position: absolute;
+    bottom: 36%;
+    left: 20px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+
+.block-bottom1>h5 {
+    position: absolute;
+    bottom: 0;
+    left: 358px;
+    color: white;
+    padding-left: 20px;
+    flex: 1 0 80px;
+}
+
+.block-bottom2>h3 {
+    position: absolute;
+    bottom: 36%;
+    left: 358px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+
+.block-bottom2>h5 {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: white;
+    padding-left: 20px;
+    flex: 1 0 80px;
+}
+
+.block-bottom3>h3 {
+    position: absolute;
+    bottom: 36%;
+    right: 40%;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.block-bottom3>h5 {
+    position: absolute;
+    bottom: 0;
+    right: 38%;
+    color: white;
+    padding-left: 20px;
+}
+
+.block-bottom4>h3 {
+    position: absolute;
+    bottom: 36%;
+    right: 11%;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.block-bottom4>h5 {
+    position: absolute;
+    bottom: 0;
+    right: 13%;
+    color: white;
+    padding-left: 20px;
+}
+
+.block-price1 {
+    position: absolute;
+    bottom: 0;
+    left: 223px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+
+.block-price2 {
+    position: absolute;
+    bottom: 0;
+    left: 562px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+
+.block-price3 {
+    position: absolute;
+    bottom: 0;
+    right: 358px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+
+.block-price4 {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+.block-price10{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    background-color: rgba(255, 187, 0, 0.993);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 0 80px;
+}
+
+
+#buttonfind {
+    background-color: rgba(255, 72, 0, 0.836);
+    margin-top: 1%;
+    text-align: center;
+    width: 50%;
+    padding: none;
+    flex: 1 0 80px;
+}
+#btn{
+    background-color: rgba(255, 72, 0, 0.836);
+    color: white;
+}
+
+#inputState {
+    width: 100%;
+    flex: 1 0 80px;
+}
+
+.index {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 700px;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    padding-bottom: 3vh;
+    padding-top: 1vh;
+    color: white;
+    box-sizing: padding-box;
+    margin: auto;
+    background-color: rgba(0, 78, 102, 255);
+    flex: 1 0 80px;
+}
+
+.contact {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 700px;
+
+    padding-bottom: 1%;
+    padding-top: 1vh;
+    color: black;
+
+}
+
+.block-contact {
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    color: white;
+
+}
+.block-paris{
+    position: absolute;
+    top: 120%;
+    right: 50%;
+    color: white;
+}
+#termtitle {
+    border-left: solid rgba(255, 72, 0, 0.836);
+    padding: 10px;
+}
+
+.container-footer {
+    background-color: rgba(0, 78, 102, 255);
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: white;
+}
+
+.container-footer1 {
+    background-color: rgba(225, 238, 246, 255);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-footer2 {
+    background-color: rgba(225, 238, 246, 255);
+    margin-left: 2vh;
+    margin-right: 2vh;
+    color: white;
+}
+
+.container-footer2>div>h4 {
+    color: black;
+}
+
+.orangefooter {
+    background-color: rgba(255, 95, 46, 255);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.flexfootercontainer {
+    background-color: rgba(225, 238, 246, 255);
+}
+
+.imgfooter {
+    width: 5%;
+    height: 70%;
+}
+
+#plane:hover {
+    transform: rotate(360deg);
+}
+
+#plane {
+    transition: transform 0.6s;
+}
+
+#gallery:hover {
+    transform: scale(1.2);
+}
+
+#gallery {
+    transition: all .3s ease;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #flexbox1,
+    .form div {
+        flex-direction: column;
+    }
+
+    .img img {
+        width: 100%;
+    }
+}
